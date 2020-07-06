@@ -1,11 +1,11 @@
 <?php
-$tituloWebRedes = "Servicios Pro Vida";
-$descripccionRedes = "Somos una Organización de estructura multinivel, que promueve la cooperación empresarial, el fortalecimiento de la calidad educativa, e impulsa la cultura empresarial emprendedora en el área financiera.";
-$descripccionWeb = "Somos una Organización de estructura multinivel, que promueve la cooperación empresarial, el fortalecimiento de la calidad educativa, e impulsa la cultura empresarial emprendedora en el área financiera.";
-$urlWeb = "https://serviciosprovida.com/";
+$tituloWebRedes = "Hortisemillas";
+$descripccionRedes = "Somos especialistas en proveer semillas de alta calidad y rendimiento para asegurar las mejores cosechas incrementando su productividad.";
+$descripccionWeb = "Somos especialistas en proveer semillas de alta calidad y rendimiento para asegurar las mejores cosechas incrementando su productividad.";
+$urlWeb = "http://www.hortisemillas.com/";
 $twitterCard = "summary";
 $favicon = "assets/img/icons/favicon.ico";
-$imgWeb = "assets/img/banner.jpg";
+$imgWeb = "assets/img/banner-principal-hortisemillas.jpg";
 ?>
 <!DOCTYPE html>
 <html lang="es">
