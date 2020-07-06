@@ -21,6 +21,18 @@
   <main class="main">
     <section class="producto-semilla section">
       <div class="producto-semilla__container container">
+        <nav class="producto-semilla__nav">
+          <ul>
+            <li><a href="../productos.php">Productos</a></li>
+            <li>
+              <i class="fas fa-caret-right"></i>
+              <figure>
+                <img src="../assets/img/icons/semillas/beterraga.png" alt="">
+              </figure>
+              BETERRAGA
+            </li>
+          </ul>
+        </nav>
         <div class="producto-semilla__grid">
           <div class="producto-semilla__data">
             <?php $tituloSemilla = "darko"; ?>
@@ -38,7 +50,7 @@
             </ul>
           </div>
           <figure class="producto-semilla__img">
-            <img src="../assets/img/semillas/<?php echo strtoupper($tituloSemilla); ?>.jpg" alt="">
+            <img src="../assets/img/semillas/<?php echo strtolower($tituloSemilla); ?>.jpg" alt="">
           </figure>
         </div>
         <div class="producto-semilla__grid">

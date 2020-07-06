@@ -20,6 +20,7 @@
       <div class="contacto__container container">
         <div class="contacto__grid--2">
           <form class="form" id="frmContacto" action="" method="post">
+            <div class="panel__confirmacion" id="respa"></div>
             <div class="form__group">
               <label for="nombre-contacto">Nombre:</label>
               <input class="input" type="text" name="nombre" id="nombre-contacto" placeholder="Introducir nombre">

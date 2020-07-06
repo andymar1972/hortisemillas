@@ -13,13 +13,25 @@
         <h2 class="banner__title"><?php echo $titulo; ?></h2>
       </div>
       <figure class="banner__img">
-        <img src="../assets/img/semillas/b-<?php echo $titulo; ?>.png" alt="">
+        <img src="../assets/img/semillas/b-<?php echo strtolower($titulo); ?>.png" alt="">
       </figure>
     </div>
   </div>
   <main class="main">
     <section class="producto-semilla section">
       <div class="producto-semilla__container container">
+        <nav class="producto-semilla__nav--modify">
+          <ul>
+            <li><a href="../productos.php">Productos</a></li>
+            <li>
+              <i class="fas fa-caret-right"></i>
+              <figure>
+                <img src="../assets/img/icons/semillas/<?php echo strtolower($titulo); ?>.png" alt="">
+              </figure>
+              <?php echo strtoupper($titulo); ?>
+            </li>
+          </ul>
+        </nav>
         <div class="producto-semilla__2fr">
           <div class="producto-semilla__filtro">
             <ul class="producto-semilla__filtro__list">
@@ -50,9 +62,9 @@
                     <img src="../assets/img/vilmorin.png" alt="">
                   </figure>
                   <ul class="producto-semilla__list">
-                    <li>Tomate indeterminado para invernadero y campo abierto, semitardío, de buen vigor.  Planta con entrenudos cortos, buena cobertura y alta producción.</li>
+                    <li>Tomate indeterminado para invernadero y campo abierto, semitardío, de buen vigor. Planta con entrenudos cortos, buena cobertura y alta producción.</li>
                     <li>Fruto alargado, de buen tamaño con unos 7.5 x 5.5 centímetros y unos 140 a 160 gramos, con 3 lóculos en promedio.</li>
-                    <li>Homogeneidad en tamaño y peso del fruto.  Frutos muy firmes.  Buena conservación.  Resistencia Alta a ToMV, V:0, Fol: 0,1, 2, S, TSWV:0.</li>
+                    <li>Homogeneidad en tamaño y peso del fruto. Frutos muy firmes. Buena conservación. Resistencia Alta a ToMV, V:0, Fol: 0,1, 2, S, TSWV:0.</li>
                     <li>Resistencia Intermedia a M, TYLCV.</li>
                   </ul>
                 </div>

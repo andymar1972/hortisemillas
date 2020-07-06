@@ -13,13 +13,25 @@
         <h2 class="banner__title"><?php echo $titulo; ?></h2>
       </div>
       <figure class="banner__img">
-        <img src="../assets/img/semillas/b-<?php echo $titulo; ?>.png" alt="">
+        <img src="../assets/img/semillas/b-<?php echo strtolower($titulo); ?>.png" alt="">
       </figure>
     </div>
   </div>
   <main class="main">
     <section class="producto-semilla section">
       <div class="producto-semilla__container container">
+        <nav class="producto-semilla__nav--modify">
+          <ul>
+            <li><a href="../productos.php">Productos</a></li>
+            <li>
+              <i class="fas fa-caret-right"></i>
+              <figure>
+                <img src="../assets/img/icons/semillas/<?php echo strtolower($titulo); ?>.png" alt="">
+              </figure>
+              <?php echo strtoupper($titulo); ?>
+            </li>
+          </ul>
+        </nav>
         <div class="producto-semilla__2fr">
           <div class="producto-semilla__filtro">
             <ul class="producto-semilla__filtro__list">
@@ -157,7 +169,7 @@
                     <img src="../assets/img/logo-ramiro-arnedo.png" alt="">
                   </figure>
                   <ul class="producto-semilla__list">
-                    <li>Es como la variedad Cristal pero con fruto de carne más gruesa, paredes más finas y ápice con 3 a4 cascos o lóculos  más marcados.</li>
+                    <li>Es como la variedad Cristal pero con fruto de carne más gruesa, paredes más finas y ápice con 3 a4 cascos o lóculos más marcados.</li>
                     <li>Se utiliza para secar en rojo (páprika) y para asar en horno (rojo) en la industria conservera.</li>
                   </ul>
                 </div>
@@ -184,23 +196,7 @@
                   </ul>
                 </div>
                 <figure class="producto-semilla__img">
-                  <img src="../assets/img/semillas/cristal.jpg" alt="">
-                </figure>
-              </div>
-              <div class="producto-semilla__grid">
-                <div class="producto-semilla__data">
-                  <?php $tituloSemilla = "CRISTAL CH"; ?>
-                  <h3 class="producto-semilla__title title"><?php echo strtoupper($tituloSemilla); ?></h3>
-                  <figure class="producto-semilla__logo">
-                    <img src="../assets/img/logo-ramiro-arnedo.png" alt="">
-                  </figure>
-                  <ul class="producto-semilla__list">
-                    <li>Es como la variedad Cristal pero con fruto de carne más gruesa, paredes más finas y ápice con 3 a4 cascos o lóculos  más marcados.</li>
-                    <li>Se utiliza para secar en rojo (páprika) y para asar en horno (rojo) en la industria conservera.</li>
-                  </ul>
-                </div>
-                <figure class="producto-semilla__img">
-                  <img src="../assets/img/semillas/cristal-ch.jpg" alt="">
+                  <img src="../assets/img/semillas/vasca.jpg" alt="">
                 </figure>
               </div>
             </div>
@@ -216,7 +212,7 @@
                   </figure>
                   <ul class="producto-semilla__list">
                     <li>Pimiento para conserva de forma puntiaguda – aplanada con unos 9 a 11 cm de largo y 6 a 7 cm de ancho.</li>
-                    <li>Peso promedio 45 a 55 gramos por fruto, de color rojo intenso, con dos caras, muy largos y muy uniformes.  Carne fina y ligeramente picante en condiciones de estrés.</li>
+                    <li>Peso promedio 45 a 55 gramos por fruto, de color rojo intenso, con dos caras, muy largos y muy uniformes. Carne fina y ligeramente picante en condiciones de estrés.</li>
                     <li>Planta muy vigorosa, con buena cobertura y buen cuajado.</li>
                     <li>Concentración en la maduración y muy precoz y productivo.</li>
                     <li>Recomendado en zonas donde el piquillo estándar se queda pequeño.</li>

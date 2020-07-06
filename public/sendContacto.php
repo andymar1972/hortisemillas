@@ -1,25 +1,22 @@
 ﻿<?php
-$emailFrom = "informes@serviciosprovida.com";
-$emailTo = "informes@serviciosprovida.com";
+$emailTo = "andymarrey30@gmail.com";
+$emailFrom = "andymarrey30@gmail.com";
 
-$subject = "SERVICIOS PRO VIDA | FORMULARIO DE CONTACTO";
+$subject = "FORMULARIO DE CONTACTO - HORTISEMILLAS";
+if (isset($_POST['nombre']) && isset($_POST['correo']) && isset($_POST['empresa']) && isset($_POST['mensaje'])) {
+    $nombre = strip_tags($_POST['nombre']);
+    $correo = strip_tags($_POST['correo']);
+    $empresa = strip_tags($_POST['empresa']);
+    $mensaje = strip_tags($_POST['mensaje']);
+}
 
-$nombres = strip_tags($_POST['nombres']);
-$celular = strip_tags($_POST['celular']);
-$email = strip_tags($_POST['email']);
-$mensaje = strip_tags($_POST['mensaje']);
-
-
-$body = "Nombres: " . $nombres . "\n";
-$body .= "Celular: " . $celular . "\n";
-$body .= "Email: " . $email . "\n";
+$body = "Nombres y Apellidos: " . $nombre . "\n";
+$body .= "Correo: " . $correo . "\n";
+$body .= "Empresa: " . $empresa . "\n";
 $body .= "Mensaje: " . $mensaje . "\n";
 
-$headers = "From: " . $emailFrom . "\n";
-$headers .= "Reply-To:" . $email . "\n";
-$headers .= "Cc: informes@serviciosprovida.com";
-
-
+$headers = "From: " . $emailFrom . " <" . $correo . ">\r\n";
+$headers .= "Reply-To: " . $correo . " <" . $correo . ">\r\n";
 
 $envio = mail($emailTo, $subject, $body, $headers);
 

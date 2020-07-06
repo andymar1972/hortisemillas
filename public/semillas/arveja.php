@@ -18,6 +18,18 @@
   <main class="main">
     <section class="producto-semilla section">
       <div class="producto-semilla__container container">
+        <nav class="producto-semilla__nav">
+          <ul>
+            <li><a href="../productos.php">Productos</a></li>
+            <li>
+              <i class="fas fa-caret-right"></i>
+              <figure>
+                <img src="../assets/img/icons/semillas/arveja.png" alt="">
+              </figure>
+              ARVEJA
+            </li>
+          </ul>
+        </nav>
         <div class="producto-semilla__grid">
           <div class="producto-semilla__data">
             <h3 class="producto-semilla__title title">NUMÉRICA</h3>
@@ -27,7 +39,7 @@
             <ul class="producto-semilla__list">
               <li>Planta vigorosa con follaje oscuro.</li>
               <li>Floración al 14º/15º entrenudo.</li>
-              <li>Vaina de color verde oscuro con sutura muy oscura y tiene una longitud de 13 cms.  Grano de color verde oscuro.</li>
+              <li>Vaina de color verde oscuro con sutura muy oscura y tiene una longitud de 13 cms. Grano de color verde oscuro.</li>
               <li>Variedad precoz con una producción escalonada, cómodo de cosechar y excelente productividad.</li>
               <li>Adaptada a cosechas manuales para mercado fresco.</li>
               <li>Resistente a Oidium y de muy buena presentación comercial.</li>

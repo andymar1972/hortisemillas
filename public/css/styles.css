@@ -679,6 +679,7 @@ a {
 }
 
 .form {
+  position: relative;
   display: grid;
   padding: 2rem;
   gap: 1.5rem;
@@ -749,7 +750,7 @@ a {
 
 .button__cancelar {
   color: #fff;
-  background: red;
+  background: var(--primary-color);
   padding: 10px;
   font-size: 14px;
   border-radius: 5px;
@@ -906,8 +907,10 @@ a {
   position: relative;
 }
 
-.banner__img img {
-  width: 100%;
+.banner__img--principal {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media screen and (max-width: 580px) {
@@ -1011,6 +1014,10 @@ a {
   color: #fff;
 }
 
+.galeria {
+  background-image: linear-gradient(to bottom, #fff -3%, #cce8ff, #fff 103%);
+}
+
 .galeria__grid {
   margin-top: 3rem;
   display: grid;
@@ -1082,6 +1089,64 @@ a {
   margin-right: auto;
   font-weight: 700;
   color: var(--primary-color);
+  font-size: 2rem;
+}
+
+.producto-semilla__nav ul {
+  list-style: none;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+.producto-semilla__nav ul li {
+  display: flex;
+  align-items: center;
+  color: var(--primary-color);
+  font-size: 2.5rem;
+  margin-right: 1rem;
+}
+
+.producto-semilla__nav ul li svg {
+  margin-right: .5rem;
+}
+
+.producto-semilla__nav ul li figure {
+  margin-right: .8rem;
+}
+
+.producto-semilla__nav ul li:nth-child(2) {
+  font-size: 2rem;
+}
+
+.producto-semilla__nav--modify {
+  margin-bottom: 2rem;
+}
+
+.producto-semilla__nav--modify ul {
+  list-style: none;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+.producto-semilla__nav--modify ul li {
+  display: flex;
+  align-items: center;
+  color: var(--primary-color);
+  font-size: 2.5rem;
+  margin-right: 1rem;
+}
+
+.producto-semilla__nav--modify ul li svg {
+  margin-right: .5rem;
+}
+
+.producto-semilla__nav--modify ul li figure {
+  margin-right: .8rem;
+}
+
+.producto-semilla__nav--modify ul li:nth-child(2) {
   font-size: 2rem;
 }
 

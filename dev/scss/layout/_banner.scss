@@ -11,8 +11,12 @@
     position: relative;
   }
   &__img {
+    &--principal{
+      width: 75%;
+      margin-left: auto;
+      margin-right: auto;
+    }
     & img {
-      width: 100%;
       @include b-580 {
         height: 100%;
         object-fit: cover;

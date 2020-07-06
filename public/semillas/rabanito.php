@@ -13,13 +13,25 @@
         <h2 class="banner__title"><?php echo $titulo; ?></h2>
       </div>
       <figure class="banner__img">
-        <img src="../assets/img/semillas/b-<?php echo $titulo; ?>.png" alt="">
+        <img src="../assets/img/semillas/b-<?php echo strtolower($titulo); ?>.png" alt="">
       </figure>
     </div>
   </div>
   <main class="main">
     <section class="producto-semilla section">
       <div class="producto-semilla__container container">
+        <nav class="producto-semilla__nav">
+          <ul>
+            <li><a href="../productos.php">Productos</a></li>
+            <li>
+              <i class="fas fa-caret-right"></i>
+              <figure>
+                <img src="../assets/img/icons/semillas/<?php echo strtolower($titulo); ?>.png" alt="">
+              </figure>
+              <?php echo strtoupper($titulo); ?>
+            </li>
+          </ul>
+        </nav>
         <div class="producto-semilla__grid">
           <div class="producto-semilla__data">
             <?php $tituloSemilla = 'TORERO'; ?>

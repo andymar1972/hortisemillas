@@ -21,6 +21,18 @@
   <main class="main">
     <section class="producto-semilla section">
       <div class="producto-semilla__container container">
+        <nav class="producto-semilla__nav">
+          <ul>
+            <li><a href="../productos.php">Productos</a></li>
+            <li>
+              <i class="fas fa-caret-right"></i>
+              <figure>
+                <img src="../assets/img/icons/semillas/<?php echo strtolower($titulo); ?>.png" alt="">
+              </figure>
+              <?php echo strtoupper($titulo); ?>
+            </li>
+          </ul>
+        </nav>
         <!-- <div class="producto-semilla__grid">
           <div class="producto-semilla__data">
             <?php $tituloSemilla = "BEGOÑA"; ?>
@@ -74,7 +86,7 @@
               <li>Hojas oscuras y brillantes con color triple rojo y versátil.</li>
               <li>Buena tolerancia a la floración.</li>
               <li>Ideal para Primavera, Verano y Otoño.</li>
-              <li>Tiene alta resistencia a Bl 16-26,28.32.  LMV.</li>
+              <li>Tiene alta resistencia a Bl 16-26,28.32. LMV.</li>
             </ul>
           </div>
           <figure class="producto-semilla__img">

@@ -18,6 +18,18 @@
   <main class="main">
     <section class="producto-semilla section">
       <div class="producto-semilla__container container">
+        <nav class="producto-semilla__nav">
+          <ul>
+            <li><a href="../productos.php">Productos</a></li>
+            <li>
+              <i class="fas fa-caret-right"></i>
+              <figure>
+                <img src="../assets/img/icons/semillas/alcachofa.png" alt="">
+              </figure>
+              ALCACHOFA
+            </li>
+          </ul>
+        </nav>
         <div class="producto-semilla__grid">
           <div class="producto-semilla__data">
             <h3 class="producto-semilla__title title">LORCA</h3>
