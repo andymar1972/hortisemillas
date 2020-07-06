@@ -1,0 +1,24 @@
+.galeria {
+  &__container {
+  }
+  &__grid {
+    margin-top: 3rem;
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(5, 1fr);
+    @include b-580 {
+      grid-template-columns: repeat(3, 1fr);
+    }
+    @include b-420 {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  &__img {
+    box-shadow: 0px 0px 10px 1px #ccc;
+    @include b-580 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}

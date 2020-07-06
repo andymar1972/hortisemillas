@@ -1,0 +1,28 @@
+.footer {
+  background-color: rgb(14, 110, 69);
+  padding: 3rem 0;
+  @include b-580 {
+    padding: 2rem 0;
+  }
+  &__centrar {
+    align-items: center;
+    @include b-580 {
+      flex-direction: column;
+    }
+  }
+  &__text {
+    font-weight: 700;
+    color: rgb(219, 219, 219);
+    @include b-580 {
+      text-align: center;
+      font-size: 1.4rem;
+    }
+  }
+  &__logodev {
+    margin-left: 1rem;
+    @include b-580 {
+      margin-left: 0;
+      margin-top: 0.5rem;
+    }
+  }
+}

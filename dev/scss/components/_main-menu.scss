@@ -1,0 +1,35 @@
+.main-menu {
+  @include reset-list;
+  display: flex;
+  align-items: center;
+  @include b-800 {
+    flex-direction: column;
+    margin-top: 4rem;
+  }
+  &__item {
+    font-family: $main-title;
+    font-size: 1.7rem;
+    padding: 0 2rem;
+    border-right: 0.1rem solid $primary-color;
+    &:last-child {
+      border-right: none;
+    }
+    @include b-800 {
+      color: #fff;
+      padding: 0;
+      margin-top: 2rem;
+    }
+  }
+  &__link{
+    color: $primary-color;
+    font-weight: 700;
+    transition-property: color;
+    transition-duration: 0.3s;
+    &:hover {
+      color: $secondary-color;
+    }
+    @include b-800 {
+      color: #fff;
+    }
+  }
+}

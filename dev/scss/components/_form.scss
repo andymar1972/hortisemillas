@@ -1,0 +1,18 @@
+.form {
+  display: grid;
+  padding: 2rem;
+  gap: 1.5rem;
+  border-radius: 1.5rem;
+  background-color: $secondary-color;
+  &__group {
+    display: flex;
+    flex-direction: column;
+    & label{
+      font-family: $main-title;
+      font-size: 1.6rem;
+      font-weight: 700;
+      color: rgb(255, 255, 255);
+      margin-bottom: .5rem;
+    }
+  }
+}

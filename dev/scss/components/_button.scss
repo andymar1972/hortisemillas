@@ -1,0 +1,29 @@
+.button {
+  cursor: pointer;
+  background-color: $primary-color;
+  border: none;
+  color: #fff;
+  padding: 1.4rem 2.8rem;
+  transition-property: background-color;
+  transition-duration: 0.8s;
+  outline: none;
+  font-family: $main-title;
+  display: inline-block;
+  &:hover {
+    background-color: $secondary-color;
+  }
+}
+.button-submit {
+  margin-top: 1rem;
+  cursor: pointer;
+  background-color: $primary-color;
+  border: none;
+  color: #fff;
+  font-weight: 700;
+  padding: 1.4rem 2.8rem;
+  transition-property: background-color;
+  transition-duration: 0.8s;
+  outline: none;
+  font-family: $main-title;
+  display: inline-block;
+}
