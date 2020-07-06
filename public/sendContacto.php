@@ -1,6 +1,6 @@
 ﻿<?php
-$emailTo = "andymarrey30@gmail.com";
-$emailFrom = "andymarrey30@gmail.com";
+$emailTo = "rnunez@evolucionmedia.pe";
+$emailFrom = "rnunez@evolucionmedia.pe";
 
 $subject = "FORMULARIO DE CONTACTO - HORTISEMILLAS";
 if (isset($_POST['nombre']) && isset($_POST['correo']) && isset($_POST['empresa']) && isset($_POST['mensaje'])) {
