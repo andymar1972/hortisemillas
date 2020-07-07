@@ -149,6 +149,13 @@
         </div>
       </div>
     </section>
+    <section class="frases section">
+      <div class="frases__container container">
+        <figure class="frases__img">
+          <img src="assets/img/garantia.png" alt="">
+        </figure>
+      </div>
+    </section>
   </main>
   <?php include('includes/_footer.php') ?>
 </body>
