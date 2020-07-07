@@ -5,10 +5,10 @@
 
 <body>
   <?php include('includes/_header.php') ?>
-  <div class="banner">
+  <div class="banner--principal">
     <div class="banner__container container">
       <figure class="banner__img--principal">
-        <img src="assets/img/banner-principal-hortisemillas.jpg" alt="">
+        <img src="assets/img/banner-principal-hortisemillas.png" alt="">
       </figure>
     </div>
   </div>
