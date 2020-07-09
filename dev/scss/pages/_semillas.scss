@@ -1,19 +1,18 @@
-.semillas{
-  &__grid{
+.semillas {
+  &__grid {
     margin-top: 3rem;
     display: grid;
     gap: 2.5rem;
-    grid-template-columns: repeat(4,1fr);
-    @include b-800{
-      grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(4, 1fr);
+    @include b-800 {
+      grid-template-columns: repeat(3, 1fr);
     }
-    @include b-420{
-      grid-template-columns: repeat(2,1fr);
+    @include b-420 {
+      grid-template-columns: repeat(2, 1fr);
       gap: 1.5rem;
     }
-    
   }
-  &__item{
+  &__item {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -22,20 +21,25 @@
     border-radius: 1rem;
     box-shadow: 0px 0px 8px 0px #ccc;
     transition-property: transform;
-    transition-duration: .5s;
-    &:hover{
+    transition-duration: 0.5s;
+    &:hover {
       transform: scale(1.05);
     }
-    &__img{
+    &__img {
       display: flex;
       justify-content: center;
       align-items: center;
       margin-bottom: 2rem;
     }
-    &__title{
+    &__title {
       text-transform: uppercase;
       font-weight: 700;
       color: $primary-color;
+      &--gris {
+        text-transform: uppercase;
+        font-weight: 700;
+        color: #ccc;
+      }
     }
   }
 }

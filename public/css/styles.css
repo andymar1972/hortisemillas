@@ -1046,7 +1046,7 @@ a {
 
 .banner__absolute {
   position: absolute;
-  top: 8rem;
+  top: 10rem;
   left: 55%;
   transform: translateX(-50%);
   width: 30rem;
@@ -1511,7 +1511,7 @@ a {
   border-radius: 1rem;
   box-shadow: 0px 0px 8px 0px #ccc;
   transition-property: transform;
-  transition-duration: .5s;
+  transition-duration: 0.5s;
 }
 
 .semillas__item:hover {
@@ -1529,6 +1529,12 @@ a {
   text-transform: uppercase;
   font-weight: 700;
   color: var(--primary-color);
+}
+
+.semillas__item__title--gris {
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #ccc;
 }
 
 .contacto {

@@ -62,9 +62,9 @@
           </a>
           <a class="semillas__item">
             <figure class="semillas__item__img">
-              <img src="assets/img/semillas/cebolla.png" alt="">
+              <img src="assets/img/semillas/cebolla-real.png" alt="">
             </figure>
-            <p class="semillas__item__title">cebolla</p>
+            <p class="semillas__item__title--gris">próximamente</p>
           </a>
           <a href="semillas/col.php" class="semillas__item">
             <figure class="semillas__item__img">
@@ -104,9 +104,9 @@
           </a>
           <a class="semillas__item">
             <figure class="semillas__item__img">
-              <img src="assets/img/semillas/melon-jpg.jpg" alt="">
+              <img src="assets/img/semillas/melon.png" alt="">
             </figure>
-            <p class="semillas__item__title">melon</p>
+            <p class="semillas__item__title--gris">próximamente</p>
           </a>
           <a href="semillas/pimiento.php" class="semillas__item">
             <figure class="semillas__item__img">
