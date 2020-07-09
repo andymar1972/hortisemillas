@@ -38,26 +38,6 @@
         </nav>
         <div class="producto-semilla__grid">
           <div class="producto-semilla__data">
-            <?php $tituloSemilla = "darko"; ?>
-            <h3 class="producto-semilla__title title"><?php echo strtoupper($tituloSemilla); ?></h3>
-            <figure class="producto-semilla__logo">
-              <img src="../assets/img/vilmorin.png" alt="">
-            </figure>
-            <ul class="producto-semilla__list">
-              <li>Planta vigorosa con follaje oscuro.</li>
-              <li>Floración al 14º/15º entrenudo.</li>
-              <li>Vaina de color verde oscuro con sutura muy oscura y tiene una longitud de 13 cms. Grano de color verde oscuro.</li>
-              <li>Variedad precoz con una producción escalonada, cómodo de cosechar y excelente productividad.</li>
-              <li>Adaptada a cosechas manuales para mercado fresco.</li>
-              <li>Resistente a Oidium y de muy buena presentación comercial.</li>
-            </ul>
-          </div>
-          <figure class="producto-semilla__img">
-            <img src="../assets/img/semillas/<?php echo strtolower($tituloSemilla); ?>.jpg" alt="">
-          </figure>
-        </div>
-        <div class="producto-semilla__grid">
-          <div class="producto-semilla__data">
             <?php $tituloSemilla = "camaro f1"; ?>
             <h3 class="producto-semilla__title title"><?php echo strtoupper($tituloSemilla); ?></h3>
             <figure class="producto-semilla__logo">
@@ -74,6 +54,26 @@
           </div>
           <figure class="producto-semilla__img">
             <img src="../assets/img/semillas/beterraga-camaro-f1.jpg" alt="">
+          </figure>
+        </div>
+        <div class="producto-semilla__grid">
+          <div class="producto-semilla__data">
+            <?php $tituloSemilla = "darko"; ?>
+            <h3 class="producto-semilla__title title"><?php echo strtoupper($tituloSemilla); ?></h3>
+            <figure class="producto-semilla__logo">
+              <img src="../assets/img/vilmorin.png" alt="">
+            </figure>
+            <ul class="producto-semilla__list">
+              <li>Planta vigorosa con follaje oscuro.</li>
+              <li>Floración al 14º/15º entrenudo.</li>
+              <li>Vaina de color verde oscuro con sutura muy oscura y tiene una longitud de 13 cms. Grano de color verde oscuro.</li>
+              <li>Variedad precoz con una producción escalonada, cómodo de cosechar y excelente productividad.</li>
+              <li>Adaptada a cosechas manuales para mercado fresco.</li>
+              <li>Resistente a Oidium y de muy buena presentación comercial.</li>
+            </ul>
+          </div>
+          <figure class="producto-semilla__img">
+            <img src="../assets/img/semillas/<?php echo strtolower($tituloSemilla); ?>.jpg" alt="">
           </figure>
         </div>
         <div class="navegacion">

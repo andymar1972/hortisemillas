@@ -20,8 +20,14 @@
     &--principal{
       width: 75%;
       margin-left: auto;
-      
       margin-right: auto;
+    }
+    height: 25rem;
+    overflow: hidden;
+    object-fit: cover;
+    & img{
+      height: 100%;
+      transform: scale(1.15);
     }
     & img {
       @include b-580 {
@@ -35,9 +41,10 @@
   }
   &__absolute{
     position: absolute;
-    top: 6rem;
+    top: 8rem;
     left: 55%;
     transform: translateX(-50%);
+    width: 30rem;
     @include b-580{
       width: 14rem;
     }

@@ -104,7 +104,7 @@
           </a>
           <a class="semillas__item">
             <figure class="semillas__item__img">
-              <img src="assets/img/semillas/melon-png.png" alt="">
+              <img src="assets/img/semillas/melon-jpg.jpg" alt="">
             </figure>
             <p class="semillas__item__title">melon</p>
           </a>

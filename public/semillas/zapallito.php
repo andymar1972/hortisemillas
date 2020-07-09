@@ -76,7 +76,7 @@
             <?php $tituloSemilla = "LENA F1"; ?>
             <h3 class="producto-semilla__title title"><?php echo strtoupper($tituloSemilla); ?></h3>
             <figure class="producto-semilla__logo">
-              <img src="../assets/img/logo-ramiro-arnedo.png" alt="">
+              <img src="../assets/img/vilmorin.png" alt="">
             </figure>
             <ul class="producto-semilla__list">
               <li>Recomendada para cultivos de campo abierto.</li>

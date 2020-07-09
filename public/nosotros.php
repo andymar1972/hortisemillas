@@ -28,7 +28,7 @@
             <p class="nosotros__subtitle">SOMOS ESPECIALISTAS EN PROVEER
               SEMILLAS DE ALTA CALIDAD Y RENDIMIENTO
               PARA ASEGURAR LAS MEJORES COSECHAS</p>
-            <p class="nosotros__text">Representantes en el Perú RAMIRO ARNEDO S.A., VILMORIN, AGRISTAR y EUROSEMILLAS.</p>
+            <p class="nosotros__text">Representantes en el Perú RAMIRO ARNEDO S.A., VILMORIN, AGRISTAR(TopSeed Premium) y EUROSEMILLAS.</p>
             <p class="nosotros__text">Contamos con una amplia gama de semillas para la agroexportación y el mercado local para satisfacer al productor de las más altas exigencias de calidad y producción en sus cosechas . Especialistas en proveer semillas de alta calidad y rendimiento para optimizar sus mejores cosechas e incrementando su productividad.</p>
             <p class="nosotros__text">Nuestra permanente innovación e incorporación de las mejores variedades / híbridos de semillas dan como resultado seguridad y satisfacción total de todos nuestros clientes. Así mismo representamos a GREEN TERRA de Letonia, empresa especializada en el desarrollo, fabricación y distribución de sustratos y turbas premium ideales para la propagación y desarrollo de plántulas en un óptimo medio.Nuestro interés es generar una estrecha relación de confianza y respaldo en cada etapa del proceso productivo, brindando asesoría permanente.</p>
           </div>

@@ -67,7 +67,7 @@
           </figure>
         </div>
         <div class="navegacion">
-          <a class="navegacion__button-next" href="apio.php">ARVEJA<i class="fas fa-caret-right"></i></a>
+          <a class="navegacion__button-next" href="apio.php">APIO<i class="fas fa-caret-right"></i></a>
         </div>
       </div>
     </section>

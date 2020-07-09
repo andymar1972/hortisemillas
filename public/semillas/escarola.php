@@ -41,7 +41,7 @@
             <?php $tituloSemilla = "CABELLO DE ANGEL"; ?>
             <h3 class="producto-semilla__title title"><?php echo strtoupper($tituloSemilla); ?></h3>
             <figure class="producto-semilla__logo">
-              <img src="../assets/img/vilmorin.png" alt="">
+              <img src="../assets/img/logo-ramiro-arnedo.png" alt="">
             </figure>
             <ul class="producto-semilla__list">
               <li>Variedad de hojas largas, color verde medio, dispuestas en forma de embudo formando un buen corazón.</li>

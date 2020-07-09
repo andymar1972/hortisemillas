@@ -18,7 +18,7 @@
   <main class="main">
     <section class="contacto section">
       <div class="contacto__container container">
-      <p class="title--2">Contáctenos</p>
+        <p class="title--2">Contáctenos</p>
         <div class="contacto__grid--2">
           <form class="form" id="frmContacto" action="" method="post">
             <div class="panel__confirmacion" id="respa"></div>
@@ -77,7 +77,7 @@
           </div>
         </div>
       </div>
-      <iframe style="display: block;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3901.5005832343986!2d-76.96099768518458!3d-12.077844345767836!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c6fea1c24223%3A0x5227f0ef13ab3c44!2sAv.%20Circunvalaci%C3%B3n%20del%20Golf%20los%20Incas%20206%2C%20Santiago%20de%20Surco%2015023!5e0!3m2!1ses!2spe!4v1593733804026!5m2!1ses!2spe" width="100%" height="350" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+      <iframe style="display: block;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3901.4565479599146!2d-76.96842615722811!3d-12.080866182928432!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c70c2f699015%3A0xb60db98d01de8494!2sCentro%20Empresarial%20Los%20Inkas!5e0!3m2!1ses!2spe!4v1594261484356!5m2!1ses!2spe" width="100%" height="350" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
     </section>
 
   </main>

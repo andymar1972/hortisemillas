@@ -38,6 +38,23 @@
         </nav>
         <div class="producto-semilla__grid">
           <div class="producto-semilla__data">
+            <?php $tituloSemilla = "SHARAN F1"; ?>
+            <h3 class="producto-semilla__title title"><?php echo strtoupper($tituloSemilla); ?></h3>
+            <figure class="producto-semilla__logo">
+              <img src="../assets/img/logo-ramiro-arnedo.png" alt="">
+            </figure>
+            <ul class="producto-semilla__list">
+              <li>Variedad de crecimiento rápido con porte erecto y peciolos medio-largos.</li>
+              <li>Hojas de color verde oscuro, de superficie bastante lisa.</li>
+              <li>HR a Pfs (1-4).</li>
+            </ul>
+          </div>
+          <figure class="producto-semilla__img">
+            <img src="../assets/img/semillas/sharan.jpg" alt="">
+          </figure>
+        </div>
+        <div class="producto-semilla__grid">
+          <div class="producto-semilla__data">
             <?php $tituloSemilla = "PARYS F1"; ?>
             <h3 class="producto-semilla__title title"><?php echo strtoupper($tituloSemilla); ?></h3>
             <figure class="producto-semilla__logo">
@@ -54,23 +71,6 @@
           </div>
           <figure class="producto-semilla__img">
             <img src="../assets/img/semillas/parys.jpg" alt="">
-          </figure>
-        </div>
-        <div class="producto-semilla__grid">
-          <div class="producto-semilla__data">
-            <?php $tituloSemilla = "SHARAN F1"; ?>
-            <h3 class="producto-semilla__title title"><?php echo strtoupper($tituloSemilla); ?></h3>
-            <figure class="producto-semilla__logo">
-              <img src="../assets/img/logo-ramiro-arnedo.png" alt="">
-            </figure>
-            <ul class="producto-semilla__list">
-              <li>Variedad de crecimiento rápido con porte erecto y peciolos medio-largos.</li>
-              <li>Hojas de color verde oscuro, de superficie bastante lisa.</li>
-              <li>HR a Pfs (1-4).</li>
-            </ul>
-          </div>
-          <figure class="producto-semilla__img">
-            <img src="../assets/img/semillas/sharan.jpg" alt="">
           </figure>
         </div>
         <div class="navegacion">

@@ -16,7 +16,14 @@
         <img src="../assets/img/semillas/b-<?php echo strtolower($titulo); ?>.png" alt="">
       </figure>
       <figure class="banner__absolute">
-        <img src="../assets/img/semillas/pimiento-main.png" alt="">
+        <img class="banner__absolute__img" src="../assets/img/semillas/california-main.png" alt="">
+        <img class="banner__absolute__img" src="../assets/img/semillas/cristal-main.png" alt="">
+        <img class="banner__absolute__img" src="../assets/img/semillas/guindilla-main.png" alt="">
+        <img class="banner__absolute__img" src="../assets/img/semillas/jalapeno-main.png" alt="">
+        <img class="banner__absolute__img" src="../assets/img/semillas/morron-main.png" alt="">
+        <img class="banner__absolute__img" src="../assets/img/semillas/padron-main.png" alt="">
+        <img class="banner__absolute__img" src="../assets/img/semillas/paprika-main.png" alt="">
+        <img class="banner__absolute__img" src="../assets/img/semillas/piquillo-main.png" alt="">
       </figure>
     </div>
   </div>
@@ -39,13 +46,13 @@
           <div class="producto-semilla__filtro">
             <ul class="producto-semilla__filtro__list">
               <li class="tablinks" onclick="openCity(event, 'california')" id="defaultOpen">California <i class="fas fa-caret-right"></i></li>
-              <li class="tablinks" onclick="openCity(event, 'cristal')">Cristal <i class="fas fa-caret-right"></i></li>
-              <li class="tablinks" onclick="openCity(event, 'guindilla')" >Guindilla <i class="fas fa-caret-right"></i></li>
-              <li class="tablinks" onclick="openCity(event, 'jalapeño')" >Jalapeño <i class="fas fa-caret-right"></i></li>
-              <li class="tablinks" onclick="openCity(event, 'morron')" >Morrón <i class="fas fa-caret-right"></i></li>
-              <li class="tablinks" onclick="openCity(event, 'padron')" >Padrón <i class="fas fa-caret-right"></i></li>
-              <li class="tablinks" onclick="openCity(event, 'papikra')" >Páprika <i class="fas fa-caret-right"></i></li>
-              <li onclick="openCity(event, 'piquillo')" class="tablinks">Piquillo <i class="fas fa-caret-right"></i></li>
+              <li id="pimiento2" class="tablinks" onclick="openCity(event, 'cristal')">Cristal <i class="fas fa-caret-right"></i></li>
+              <li id="pimiento3" class="tablinks" onclick="openCity(event, 'guindilla')" >Guindilla <i class="fas fa-caret-right"></i></li>
+              <li id="pimiento4" class="tablinks" onclick="openCity(event, 'jalapeño')" >Jalapeño <i class="fas fa-caret-right"></i></li>
+              <li id="pimiento5" class="tablinks" onclick="openCity(event, 'morron')" >Morrón <i class="fas fa-caret-right"></i></li>
+              <li id="pimiento6" class="tablinks" onclick="openCity(event, 'padron')" >Padrón <i class="fas fa-caret-right"></i></li>
+              <li id="pimiento7" class="tablinks" onclick="openCity(event, 'papikra')" >Páprika <i class="fas fa-caret-right"></i></li>
+              <li id="pimiento8" onclick="openCity(event, 'piquillo')" class="tablinks">Piquillo <i class="fas fa-caret-right"></i></li>
             </ul>
           </div>
           <div class="producto-semilla__all">
@@ -203,7 +210,7 @@
             </div>
             <div id="jalapeño" class="tabcontent">
               <div class="tabcontent__title title">JALAPEÑO</div>
-              <div class="producto-semilla__grid">
+              <!-- <div class="producto-semilla__grid">
                 <div class="producto-semilla__data">
                   <?php $tituloSemilla = "CALIBER F1"; ?>
                   <h3 class="producto-semilla__title title"><?php echo strtoupper($tituloSemilla); ?></h3>
@@ -220,7 +227,7 @@
                 <figure class="producto-semilla__img">
                   <img src="../assets/img/semillas/caliber-f1.jpg" alt="">
                 </figure>
-              </div>
+              </div> -->
               <div class="producto-semilla__grid">
                 <div class="producto-semilla__data">
                   <?php $tituloSemilla = "DA VINCI F1"; ?>
@@ -241,7 +248,7 @@
                   <img src="../assets/img/semillas/da-vinci.jpg" alt="">
                 </figure>
               </div>
-              <div class="producto-semilla__grid">
+              <!-- <div class="producto-semilla__grid">
                 <div class="producto-semilla__data">
                   <?php $tituloSemilla = "RAYO F1"; ?>
                   <h3 class="producto-semilla__title title"><?php echo strtoupper($tituloSemilla); ?></h3>
@@ -259,7 +266,7 @@
                 <figure class="producto-semilla__img">
                   <img src="../assets/img/semillas/rayo-f1.jpg" alt="">
                 </figure>
-              </div>
+              </div> -->
               <div class="producto-semilla__grid">
                 <div class="producto-semilla__data">
                   <?php $tituloSemilla = "RIVERA F1"; ?>

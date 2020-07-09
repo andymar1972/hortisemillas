@@ -21,8 +21,11 @@
         <h2 class="productos__title title">Selecciona Producto <i class="fas fa-forward"></i></h2>
         <div class="productos__grid">
           <a href="semillas.php" class="productos__item">
-            <i class="fas fa-leaf"></i>
-            <p class="productos__item__title">Semillas</p>
+            <div class="centrar__align">
+              <i class="fas fa-leaf"></i>
+              <p class="productos__item__title">Semillas</p>
+            </div>
+
             <div class="productos__gallery">
               <figure class="productos__img">
                 <img src="assets/img/logo-ramiro-arnedo.png" alt="">
@@ -39,8 +42,10 @@
             </div>
           </a>
           <a href="turba.php" class="productos__item">
-            <i class="fas fa-seedling"></i>
-            <p class="productos__item__title">Turba</p>
+            <div class="centrar__align">
+              <i class="fas fa-seedling"></i>
+              <p class="productos__item__title">Turba</p>
+            </div>
             <div class="productos__gallery">
               <figure class="productos__img--modify">
                 <img src="assets/img/green-terra.png" alt="">

@@ -89,3 +89,68 @@ const buttonAccordion = Array.from(document.querySelectorAll(".accordion"));
 for (let i = 0; i < buttonAccordion.length; i++) {
   buttonAccordion[i].click();
 }
+
+const images=Array.from(document.querySelectorAll('.banner__absolute__img'));
+
+for (let i = 0; i < images.length; i++) {
+  images[i].style.display="none";
+}
+images[0].style.display="block";
+
+const pimiento1=document.getElementById('defaultOpen');
+const pimiento2=document.getElementById('pimiento2');
+const pimiento3=document.getElementById('pimiento3');
+const pimiento4=document.getElementById('pimiento4');
+const pimiento5=document.getElementById('pimiento5');
+const pimiento6=document.getElementById('pimiento6');
+const pimiento7=document.getElementById('pimiento7');
+const pimiento8=document.getElementById('pimiento8');
+
+pimiento1.addEventListener('click',()=>{
+  for (let i = 0; i < images.length; i++) {
+    images[i].style.display="none";
+  }
+  images[0].style.display="block";
+})
+pimiento2.addEventListener('click',()=>{
+  for (let i = 0; i < images.length; i++) {
+    images[i].style.display="none";
+  }
+  images[1].style.display="block";
+})
+pimiento3.addEventListener('click',()=>{
+  for (let i = 0; i < images.length; i++) {
+    images[i].style.display="none";
+  }
+  images[2].style.display="block";
+})
+pimiento4.addEventListener('click',()=>{
+  for (let i = 0; i < images.length; i++) {
+    images[i].style.display="none";
+  }
+  images[3].style.display="block";
+})
+pimiento5.addEventListener('click',()=>{
+  for (let i = 0; i < images.length; i++) {
+    images[i].style.display="none";
+  }
+  images[4].style.display="block";
+})
+pimiento6.addEventListener('click',()=>{
+  for (let i = 0; i < images.length; i++) {
+    images[i].style.display="none";
+  }
+  images[5].style.display="block";
+})
+pimiento7.addEventListener('click',()=>{
+  for (let i = 0; i < images.length; i++) {
+    images[i].style.display="none";
+  }
+  images[6].style.display="block";
+})
+pimiento8.addEventListener('click',()=>{
+  for (let i = 0; i < images.length; i++) {
+    images[i].style.display="none";
+  }
+  images[7].style.display="block";
+})
