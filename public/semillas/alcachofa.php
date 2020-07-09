@@ -7,11 +7,14 @@
   <?php include('../includes/_header2.php') ?>
   <div class="banner--modify">
     <div class="banner__container">
-      <div class="container">
+      <!-- <div class="container">
         <h2 class="banner__title">Alcachofa</h2>
-      </div>
+      </div> -->
       <figure class="banner__img">
         <img src="../assets/img/semillas/b-alcachofa.png" alt="">
+      </figure>
+      <figure class="banner__absolute">
+        <img src="../assets/img/semillas/alcachofa-main.png" alt="">
       </figure>
     </div>
   </div>
@@ -49,7 +52,7 @@
         </div>
         <div class="producto-semilla__grid">
           <div class="producto-semilla__data">
-            <h3 class="producto-semilla__title title">ALCACHOFA TUPAC</h3>
+            <h3 class="producto-semilla__title title">TUPAC</h3>
             <figure class="producto-semilla__logo">
               <img src="../assets/img/logo-ramiro-arnedo.png" alt="">
             </figure>
@@ -62,6 +65,9 @@
           <figure class="producto-semilla__img">
             <img src="../assets/img/semillas/alcachofa-tupac.jpg" alt="">
           </figure>
+        </div>
+        <div class="navegacion">
+          <a class="navegacion__button-next" href="apio.php">ARVEJA<i class="fas fa-caret-right"></i></a>
         </div>
       </div>
     </section>

@@ -13,7 +13,7 @@
     </div>
   </div>
   <main class="main">
-    <section class="productos section">
+    <!-- <section class="productos section">
       <div class="productos__container container">
         <h2 class="productos__title title">Productos <i class="fas fa-forward"></i></h2>
         <div class="productos__grid">
@@ -26,6 +26,21 @@
             <i class="fas fa-seedling"></i>
             <p class="productos__item__title">Turba</p>
             <p class="productos__item__text">Amplia gama de productos para abono de uso agroindustrial.</p>
+          </a>
+        </div>
+      </div>
+    </section> -->
+    <section class="productos--modify section">
+      <div class="productos__container--modify container">
+        <h2 class="productos__title title">Productos <i class="fas fa-forward"></i></h2>
+        <div class="productos__grid--modify">
+          <a href="semillas.php" class="productos__item--modify">
+            <i class="fas fa-leaf"></i>
+            <p class="productos__item__title--modify">Semillas</p>
+          </a>
+          <a href="turba.php" class="productos__item--modify">
+            <i class="fas fa-seedling"></i>
+            <p class="productos__item__title--modify">Turba</p>
           </a>
         </div>
       </div>

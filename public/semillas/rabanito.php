@@ -15,6 +15,9 @@
       <figure class="banner__img">
         <img src="../assets/img/semillas/b-<?php echo strtolower($titulo); ?>.png" alt="">
       </figure>
+      <figure class="banner__absolute">
+        <img src="../assets/img/semillas/rabanito-main.png" alt="">
+      </figure>
     </div>
   </div>
   <main class="main">
@@ -50,6 +53,10 @@
           <figure class="producto-semilla__img">
             <img src="../assets/img/semillas/torero.jpg" alt="">
           </figure>
+        </div>
+        <div class="navegacion">
+          <a class="navegacion__button-prev" href="poro.php"><i class="fas fa-caret-left"></i>poro</a>
+          <a class="navegacion__button-next" href="sandia.php">sandia<i class="fas fa-caret-right"></i></a>
         </div>
       </div>
     </section>

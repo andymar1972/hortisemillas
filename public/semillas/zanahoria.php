@@ -15,6 +15,9 @@
       <figure class="banner__img">
         <img src="../assets/img/semillas/b-<?php echo strtolower($titulo); ?>.png" alt="">
       </figure>
+      <figure class="banner__absolute">
+        <img src="../assets/img/semillas/zanahoria-main.png" alt="">
+      </figure>
     </div>
   </div>
   <main class="main">
@@ -32,6 +35,27 @@
             </li>
           </ul>
         </nav>
+        <div class="producto-semilla__grid">
+          <div class="producto-semilla__data">
+            <?php $tituloSemilla = 'DIAMENTO F1'; ?>
+            <h3 class="producto-semilla__title title"><?php echo strtoupper($tituloSemilla); ?></h3>
+            <figure class="producto-semilla__logo">
+              <img src="../assets/img/vilmorin.png" alt="">
+            </figure>
+            <ul class="producto-semilla__list">
+              <li>Raiz cónica, con punta roma.</li>
+              <li>20 cms de largo y 5 cms de ancho aproximadamente.</li>
+              <li>Muy buen color de raíz.</li>
+              <li>Muy lisa.</li>
+              <li>Alta resistencia al Oidium.</li>
+              <li>Resistencia Intermedia a Phytium.</li>
+              <li>Cosechas para fresco y procesado.</li>
+            </ul>
+          </div>
+          <figure class="producto-semilla__img">
+            <img src="../assets/img/semillas/diamento.jpg" alt="">
+          </figure>
+        </div>
         <div class="producto-semilla__grid">
           <div class="producto-semilla__data">
             <?php $tituloSemilla = 'OLIMPO F1'; ?>
@@ -68,29 +92,12 @@
             </ul>
           </div>
           <figure class="producto-semilla__img">
-            <img src="../assets/img/semillas/red.jpg" alt="">
+            <img src="../assets/img/semillas/cored.jpg" alt="">
           </figure>
         </div>
-        <div class="producto-semilla__grid">
-          <div class="producto-semilla__data">
-            <?php $tituloSemilla = 'ZANAHORIA DIAMENTO F'; ?>
-            <h3 class="producto-semilla__title title"><?php echo strtoupper($tituloSemilla); ?></h3>
-            <figure class="producto-semilla__logo">
-              <img src="../assets/img/vilmorin.png" alt="">
-            </figure>
-            <ul class="producto-semilla__list">
-              <li>Raiz cónica, con punta roma.</li>
-              <li>20 cms de largo y 5 cms de ancho aproximadamente.</li>
-              <li>Muy buen color de raíz.</li>
-              <li>Muy lisa.</li>
-              <li>Alta resistencia al Oidium.</li>
-              <li>Resistencia Intermedia a Phytium.</li>
-              <li>Cosechas para fresco y procesado.</li>
-            </ul>
-          </div>
-          <figure class="producto-semilla__img">
-            <img src="../assets/img/semillas/diamento.jpg" alt="">
-          </figure>
+        <div class="navegacion">
+          <a class="navegacion__button-prev" href="vainita.php"><i class="fas fa-caret-left"></i>vainita</a>
+          <a class="navegacion__button-next" href="zapallito.php">zapallito<i class="fas fa-caret-right"></i></a>
         </div>
       </div>
     </section>

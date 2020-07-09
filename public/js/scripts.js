@@ -84,3 +84,8 @@ for (i = 0; i < acc.length; i++) {
     }
   });
 }
+
+const buttonAccordion = Array.from(document.querySelectorAll(".accordion"));
+for (let i = 0; i < buttonAccordion.length; i++) {
+  buttonAccordion[i].click();
+}

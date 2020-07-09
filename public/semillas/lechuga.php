@@ -9,11 +9,14 @@
   <?php include('../includes/_header2.php') ?>
   <div class="banner--modify">
     <div class="banner__container">
-      <div class="container">
+      <!-- <div class="container">
         <h2 class="banner__title"><?php echo $titulo; ?></h2>
-      </div>
+      </div> -->
       <figure class="banner__img">
         <img src="../assets/img/semillas/b-<?php echo strtolower($titulo); ?>.png" alt="">
+      </figure>
+      <figure class="banner__absolute">
+        <img src="../assets/img/semillas/lechuga-main.png" alt="">
       </figure>
     </div>
   </div>
@@ -52,6 +55,26 @@
             <img src="../assets/img/semillas/begoña.jpg" alt="">
           </figure>
         </div> -->
+        <div class="producto-semilla__grid">
+          <div class="producto-semilla__data">
+            <?php $tituloSemilla = "ANTARTICA"; ?>
+            <h3 class="producto-semilla__title title"><?php echo strtoupper($tituloSemilla); ?></h3>
+            <figure class="producto-semilla__logo">
+              <img src="../assets/img/vilmorin.png" alt="">
+            </figure>
+            <ul class="producto-semilla__list">
+              <li>Lechuga precoz, de color verde.</li>
+              <li>Buena tolerancia a la floración.</li>
+              <li>Aguanta muy bien en el campo con un crecimiento lento.</li>
+              <li>Buen comportamiento en el campo, muy versátil. </li>
+              <li>Alta resistencia a Bl (1 - 28)</li>
+              <li>Resistencia intermedia a LMV (0)</li>
+            </ul>
+          </div>
+          <figure class="producto-semilla__img">
+            <img src="../assets/img/semillas/lechuga-antartica.jpg" alt="">
+          </figure>
+        </div>
         <div class="producto-semilla__grid">
           <div class="producto-semilla__data">
             <?php $tituloSemilla = "GALA"; ?>
@@ -137,25 +160,9 @@
             <img src="../assets/img/semillas/monterreal.jpg" alt="">
           </figure>
         </div>
-        <div class="producto-semilla__grid">
-          <div class="producto-semilla__data">
-            <?php $tituloSemilla = "LECHUGA ANTARTICA"; ?>
-            <h3 class="producto-semilla__title title"><?php echo strtoupper($tituloSemilla); ?></h3>
-            <figure class="producto-semilla__logo">
-              <img src="../assets/img/vilmorin.png" alt="">
-            </figure>
-            <ul class="producto-semilla__list">
-              <li>Lechuga precoz, de color verde.</li>
-              <li>Buena tolerancia a la floración.</li>
-              <li>Aguanta muy bien en el campo con un crecimiento lento.</li>
-              <li>Buen comportamiento en el campo, muy versátil. </li>
-              <li>Alta resistencia a Bl (1 - 28)</li>
-              <li>Resistencia intermedia a LMV (0)</li>
-            </ul>
-          </div>
-          <figure class="producto-semilla__img">
-            <img src="../assets/img/semillas/lechuga-antartica.jpg" alt="">
-          </figure>
+        <div class="navegacion">
+          <a class="navegacion__button-prev" href="espinaca.php"><i class="fas fa-caret-left"></i>ESPINACA</a>
+          <a class="navegacion__button-next" href="pimiento.php">PIMIENTO<i class="fas fa-caret-right"></i></a>
         </div>
       </div>
     </section>

@@ -9,11 +9,14 @@
   <?php include('../includes/_header2.php') ?>
   <div class="banner--modify">
     <div class="banner__container">
-      <div class="container">
+      <!-- <div class="container">
         <h2 class="banner__title"><?php echo $titulo; ?></h2>
-      </div>
+      </div> -->
       <figure class="banner__img">
         <img src="../assets/img/semillas/b-<?php echo strtolower($titulo); ?>.png" alt="">
+      </figure>
+      <figure class="banner__absolute">
+        <img src="../assets/img/semillas/poro-main.png" alt="">
       </figure>
     </div>
   </div>
@@ -68,6 +71,10 @@
           <figure class="producto-semilla__img">
             <img src="../assets/img/semillas/tempano.jpg" alt="">
           </figure>
+        </div>
+        <div class="navegacion">
+          <a class="navegacion__button-prev" href="pimiento.php"><i class="fas fa-caret-left"></i>pimiento</a>
+          <a class="navegacion__button-next" href="rabanito.php">rabanito<i class="fas fa-caret-right"></i></a>
         </div>
       </div>
     </section>

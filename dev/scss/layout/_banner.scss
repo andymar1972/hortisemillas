@@ -1,10 +1,12 @@
 .banner {
   padding: 3rem 0 0;
+  position: relative;
   &--principal{
     padding: 3rem 0 0;
-    background-image: linear-gradient(to bottom, #fff -3%, #cce8ff, #fff 103%);
+    // background-image: linear-gradient(to bottom, #fff -3%, #cce8ff, #fff 103%);
   }
   &__container {
+    position: relative;
     @include b-580 {
       padding-left: 0;
       padding-right: 0;
@@ -29,6 +31,15 @@
     }
     @include b-580 {
       height: 18rem;
+    }
+  }
+  &__absolute{
+    position: absolute;
+    top: 6rem;
+    left: 55%;
+    transform: translateX(-50%);
+    @include b-580{
+      width: 14rem;
     }
   }
   &__title {

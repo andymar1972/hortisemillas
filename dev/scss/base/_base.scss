@@ -71,10 +71,10 @@ a {
   }
 }
 .section {
-  padding: 4rem 0;
+  padding: 3rem 0;
 }
 .container {
-  max-width: 100rem;
+  max-width: 90rem;
   margin-left: auto;
   margin-right: auto;
   @include b-800 {
@@ -86,8 +86,13 @@ a {
   color: $primary-color;
   display: flex;
   align-items: center;
-  & svg{
-    margin-left: 1rem;;
+  &--2 {
+    font-size: 4rem;
+    font-weight: 700;
+    color: $primary-color;
+  }
+  & svg {
+    margin-left: 1rem;
     font-size: 2.3rem;
   }
   @include b-420 {
@@ -95,10 +100,40 @@ a {
     font-size: 2.5rem;
   }
 }
-.img-padding{
+.img-padding {
   background-color: rgb(223, 223, 223);
-  padding: .7rem;
-  border-radius: .5rem;
+  padding: 0.7rem;
+  border-radius: 0.5rem;
 }
 .subtitle {
+}
+.centrar--align {
+  display: flex;
+  align-items: center;
+  @include b-580{
+    flex-wrap: wrap;
+  }
+  & figure {
+    margin-left: 1rem;
+  }
+  & p {
+    color: $primary-color;
+    font-weight: 700;
+    margin-left: 0.5rem;
+
+    &:nth-of-type(2) {
+      margin-left: 5rem;
+      font-weight: 400;
+      @include b-580{
+        margin-top: 1rem;
+        margin-left: 0;
+      }
+    }
+  }
+}
+
+.banner__container {
+  & .container {
+    display: none;
+  }
 }

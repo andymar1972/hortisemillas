@@ -7,9 +7,9 @@
   <?php include('includes/_header.php') ?>
   <div class="banner--modify">
     <div class="banner__container">
-      <div class="container">
+      <!-- <div class="container">
         <h2 class="banner__title">Semillas</h2>
-      </div>
+      </div> -->
       <figure class="banner__img">
         <img src="assets/img/banner-contacto.png" alt="">
       </figure>
@@ -18,7 +18,17 @@
   <main class="main">
     <section class="semillas section">
       <div class="semillas__container container">
-        <h2 class="semillas__title title">Productos<i class="fas fa-forward"></i></h2>
+        <div class="centrar--align">
+          <a href="productos.php">
+            <h2 class="semillas__title title">Productos<i class="fas fa-forward"></i></h2>
+          </a>
+          <figure>
+            <img src="assets/img/icons/semilla.jpg" alt="">
+          </figure>
+          <p>
+            SEMILLAS</p>
+          <p>Amplia gama de semillas para uso agroindustrial y fresco.</p>
+        </div>
         <div class="semillas__grid">
           <a href="semillas/alcachofa.php" class="semillas__item">
             <figure class="semillas__item__img">
@@ -94,7 +104,7 @@
           </a>
           <a class="semillas__item">
             <figure class="semillas__item__img">
-              <img src="assets/img/semillas/melon.png" alt="">
+              <img src="assets/img/semillas/melon-png.png" alt="">
             </figure>
             <p class="semillas__item__title">melon</p>
           </a>

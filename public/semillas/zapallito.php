@@ -15,6 +15,9 @@
       <figure class="banner__img">
         <img src="../assets/img/semillas/b-<?php echo strtolower($titulo); ?>.png" alt="">
       </figure>
+      <figure class="banner__absolute">
+        <img src="../assets/img/semillas/zapallito-main.png" alt="">
+      </figure>
     </div>
   </div>
 
@@ -87,6 +90,9 @@
           <figure class="producto-semilla__img">
             <img src="../assets/img/semillas/lena.jpg" alt="">
           </figure>
+        </div>
+        <div class="navegacion">
+          <a class="navegacion__button-prev" href="zanahoria.php"><i class="fas fa-caret-left"></i>zanahoria</a>
         </div>
       </div>
     </section>

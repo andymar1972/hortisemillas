@@ -9,11 +9,14 @@
   <?php include('../includes/_header2.php') ?>
   <div class="banner--modify">
     <div class="banner__container">
-      <div class="container">
+      <!-- <div class="container">
         <h2 class="banner__title"><?php echo $titulo; ?></h2>
-      </div>
+      </div> -->
       <figure class="banner__img">
         <img src="../assets/img/semillas/b-<?php echo strtolower($titulo); ?>.png" alt="">
+      </figure>
+      <figure class="banner__absolute">
+        <img src="../assets/img/semillas/col-main.png" alt="">
       </figure>
     </div>
   </div>
@@ -48,6 +51,10 @@
           <figure class="producto-semilla__img">
             <img src="../assets/img/semillas/fukuyuguri.jpg" alt="">
           </figure>
+        </div>
+        <div class="navegacion">
+          <a class="navegacion__button-prev" href="brocoli.php"><i class="fas fa-caret-left"></i>BROCOLI</a>
+          <a class="navegacion__button-next" href="coliflor.php">COLIFLOR<i class="fas fa-caret-right"></i></a>
         </div>
       </div>
     </section>

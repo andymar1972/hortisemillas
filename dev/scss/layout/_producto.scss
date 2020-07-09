@@ -1,4 +1,16 @@
 .productos {
+  background-image: linear-gradient(to bottom, #fff -3%, #cce8ff, #fff 103%);
+  &__container{
+    &--modify{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      @include b-580{
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  }
   &__title {
 
   }
@@ -6,10 +18,13 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 3rem;
-    width: 85%;
     margin-top: 3rem;
     margin-left: auto;
     margin-right: auto;
+    &--modify{
+      display: flex;
+      align-items: center;
+    }
     @include b-800{
       grid-template-columns: 1fr;
     }
@@ -19,13 +34,34 @@
   }
   &__item {
     display: flex;
+    background-color: #fff;
     flex-direction: column;
     align-items: center;
     border: 0.2rem solid $secondary-color;
-    padding: 4rem 0;
+    padding: 4rem 2rem 2rem;
     border-radius: 1rem;
     transition-property: background-color,color,transform;
     transition-duration: .5s;
+    &--modify{
+      display: flex;
+      align-items: center;
+      margin-left: 2rem;
+      color: $primary-color;
+      font-size: 2rem;
+      @include b-580{
+        margin-left: 0;
+        margin-top: 1rem;
+        &:last-child{
+          margin-left: 1rem;
+        }
+      }
+      &:first-child{
+        // margin-left: 0;
+      }
+      & svg{
+        margin-right: .5rem;
+      }
+    }
     @include b-580 {
       padding: 4rem 2rem;
     }
@@ -34,6 +70,7 @@
       font-size: 7rem;
       transition-property: background-color,color,transform;
       transition-duration: .5s;
+
     }
     &__title {
       font-size: 2.5rem;
@@ -46,12 +83,29 @@
       line-height: 1.3;
     }
     &:hover {
-      background-color: $secondary-color;
-      color: #fff;
+      // background-color: $secondary-color;
+      // color: #fff;
       transform: scale(1.05);
       & svg{
-        color: #fff;
+        // color: #fff;
       }
+    }
+  }
+  &__gallery{
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    @include b-580{
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+  &__img{
+    margin: .5rem;
+    width: 7.5rem;
+    &--modify{
+      margin: .5rem;
+      width: 15rem;
     }
   }
 }

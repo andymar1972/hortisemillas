@@ -7,11 +7,14 @@
   <?php include('../includes/_header2.php') ?>
   <div class="banner--modify">
     <div class="banner__container">
-      <div class="container">
+      <!-- <div class="container">
         <h2 class="banner__title">Arveja</h2>
-      </div>
+      </div> -->
       <figure class="banner__img">
         <img src="../assets/img/semillas/b-arveja.png" alt="">
+      </figure>
+      <figure class="banner__absolute">
+        <img src="../assets/img/semillas/arverja-main.png" alt="">
       </figure>
     </div>
   </div>
@@ -48,6 +51,10 @@
           <figure class="producto-semilla__img">
             <img src="../assets/img/semillas/numerica.jpg" alt="">
           </figure>
+        </div>
+        <div class="navegacion">
+          <a class="navegacion__button-prev" href="apio.php"><i class="fas fa-caret-left"></i>APIO</a>
+          <a class="navegacion__button-next" href="beterraga.php">BETERRAGA<i class="fas fa-caret-right"></i></a>
         </div>
       </div>
     </section>

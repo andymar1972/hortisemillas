@@ -18,40 +18,24 @@
   <main class="main">
     <section class="producto-semilla section">
       <div class="producto-semilla__container container">
-        <div class="producto-semilla__grid">
-          <div class="producto-semilla__data">
-            <h3 class="producto-semilla__title title">SEED 0</h3>
-            <figure class="producto-semilla__logo">
-              <img src="assets/img/green-terra.png" alt="">
-            </figure>
-            <ul class="producto-semilla__list">
-              <li>CAMPO DE APLICACIÓN:
-                Substrato de turba rubia Báltica y estructura fina, ligeramente abonado, para siembra, repicado y plantación de esquejes de planta hortícola y ornamental.</li>
-              <li>COMPOSICIÓN:
-                Mezcla de turba báltica poco o moderadamente descompuesta, mojante, cal, con poca cantidad de abono complejo, con todos los nutrientes esenciales y oligoelementos necesarios, así como complejo de micro elementos.</li>
-            </ul>
-            <a class="producto-semilla__pdf" href="" target="_blank">
-              <div class="producto-semilla__pdf__content">
-              Descargar Información
-              <i class="far fa-file-pdf"></i>
-              </div>
-            </a>
-          </div>
-          <figure class="producto-semilla__img">
-            <img src="assets/img/turba.png" alt="">
+      <div class="centrar--align">
+          <a href="productos.php">
+            <h2 class="semillas__title title">Productos<i class="fas fa-forward"></i></h2>
+          </a>
+          <figure>
+            <img src="assets/img/icons/turba.jpg" alt="">
           </figure>
+          <p>
+            TURBA</p>
         </div>
         <div class="producto-semilla__grid">
           <div class="producto-semilla__data">
-            <h3 class="producto-semilla__title title">SEED 2</h3>
+            <h3 class="producto-semilla__title title">GT4 90/10:</h3>
             <figure class="producto-semilla__logo">
               <img src="assets/img/green-terra.png" alt="">
             </figure>
             <ul class="producto-semilla__list">
-              <li>CAMPO DE APLICACIÓN:
-                Substrato báltico de cultivo con mayor capacidad de retención hídrica; ideal para la propagación estival.</li>
-              <li>COMPOSICIÓN:
-                Mezcla de turba báltica poco o moderadamente descompuesta y muy descompuesta, mojante, cal, abono complejo, con todos los nutrientes esenciales y oligoelementos necesarios, así como complejo de micro elementos.</li>
+              <li>Sustrato de turba natural, de textura fina y con una cantidad de fertilizante de 0.8 Kg / m3, rango de pH balanceado y mejor absorción de agua. Es destinado a la germinación de semillas, la propagación vegetativa y el cultivo de plantas sensibles a la sal. La textura fina asegura un nivel muy alto de retención de agua, lo que protege a las plantas de secarse. A menudo se usa como suelo para fomentar la brotación. Adecuado para la reproducción de semillas de hortalizas, árboles, plantas decorativas, así como para mejorar otros tipos de suelo.</li>
             </ul>
             <a class="producto-semilla__pdf" href="" target="_blank">
               <div class="producto-semilla__pdf__content">

@@ -9,11 +9,14 @@
   <?php include('../includes/_header2.php') ?>
   <div class="banner--modify">
     <div class="banner__container">
-      <div class="container">
+      <!-- <div class="container">
         <h2 class="banner__title"><?php echo $titulo; ?></h2>
-      </div>
+      </div> -->
       <figure class="banner__img">
         <img src="../assets/img/semillas/b-<?php echo strtolower($titulo); ?>.png" alt="">
+      </figure>
+      <figure class="banner__absolute">
+        <img src="../assets/img/semillas/espinaca-main.png" alt="">
       </figure>
     </div>
   </div>
@@ -52,6 +55,27 @@
           <figure class="producto-semilla__img">
             <img src="../assets/img/semillas/parys.jpg" alt="">
           </figure>
+        </div>
+        <div class="producto-semilla__grid">
+          <div class="producto-semilla__data">
+            <?php $tituloSemilla = "SHARAN F1"; ?>
+            <h3 class="producto-semilla__title title"><?php echo strtoupper($tituloSemilla); ?></h3>
+            <figure class="producto-semilla__logo">
+              <img src="../assets/img/logo-ramiro-arnedo.png" alt="">
+            </figure>
+            <ul class="producto-semilla__list">
+              <li>Variedad de crecimiento rápido con porte erecto y peciolos medio-largos.</li>
+              <li>Hojas de color verde oscuro, de superficie bastante lisa.</li>
+              <li>HR a Pfs (1-4).</li>
+            </ul>
+          </div>
+          <figure class="producto-semilla__img">
+            <img src="../assets/img/semillas/sharan.jpg" alt="">
+          </figure>
+        </div>
+        <div class="navegacion">
+          <a class="navegacion__button-prev" href="esparrago.php"><i class="fas fa-caret-left"></i>ESPARRAGO</a>
+          <a class="navegacion__button-next" href="lechuga.php">LECHUGA<i class="fas fa-caret-right"></i></a>
         </div>
       </div>
     </section>

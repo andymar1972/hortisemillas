@@ -9,11 +9,14 @@
   <?php include('../includes/_header2.php') ?>
   <div class="banner--modify">
     <div class="banner__container">
-      <div class="container">
+      <!-- <div class="container">
         <h2 class="banner__title"><?php echo $titulo; ?></h2>
-      </div>
+      </div> -->
       <figure class="banner__img">
         <img src="../assets/img/semillas/b-<?php echo strtolower($titulo); ?>.png" alt="">
+      </figure>
+      <figure class="banner__absolute">
+        <img src="../assets/img/semillas/beterraga-main.png" alt="">
       </figure>
     </div>
   </div>
@@ -55,7 +58,7 @@
         </div>
         <div class="producto-semilla__grid">
           <div class="producto-semilla__data">
-            <?php $tituloSemilla = "beterraga camaro f1"; ?>
+            <?php $tituloSemilla = "camaro f1"; ?>
             <h3 class="producto-semilla__title title"><?php echo strtoupper($tituloSemilla); ?></h3>
             <figure class="producto-semilla__logo">
               <img src="../assets/img/vilmorin.png" alt="">
@@ -72,6 +75,10 @@
           <figure class="producto-semilla__img">
             <img src="../assets/img/semillas/beterraga-camaro-f1.jpg" alt="">
           </figure>
+        </div>
+        <div class="navegacion">
+          <a class="navegacion__button-prev" href="arveja.php"><i class="fas fa-caret-left"></i>ARVEJA</a>
+          <a class="navegacion__button-next" href="brocoli.php">BROCOLI<i class="fas fa-caret-right"></i></a>
         </div>
       </div>
     </section>

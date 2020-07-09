@@ -7,9 +7,9 @@
   <?php include('includes/_header.php') ?>
   <div class="banner--modify">
     <div class="banner__container">
-      <div class="container">
+      <!-- <div class="container">
         <h2 class="banner__title">Productos</h2>
-      </div>
+      </div> -->
       <figure class="banner__img">
         <img src="assets/img/banner-productos.png" alt="">
       </figure>
@@ -23,12 +23,30 @@
           <a href="semillas.php" class="productos__item">
             <i class="fas fa-leaf"></i>
             <p class="productos__item__title">Semillas</p>
-            <p class="productos__item__text">Amplia gama de semillas para uso agroindustrial y fresco.</p>
+            <div class="productos__gallery">
+              <figure class="productos__img">
+                <img src="assets/img/logo-ramiro-arnedo.png" alt="">
+              </figure>
+              <figure class="productos__img">
+                <img src="assets/img/vilmorin.png" alt="">
+              </figure>
+              <figure class="productos__img">
+                <img src="assets/img/eurosemillas.png" alt="">
+              </figure>
+              <figure class="productos__img">
+                <img src="assets/img/agristar.png" alt="">
+              </figure>
+            </div>
           </a>
           <a href="turba.php" class="productos__item">
             <i class="fas fa-seedling"></i>
             <p class="productos__item__title">Turba</p>
-            <p class="productos__item__text">Amplia gama de productos para abono de uso agroindustrial.</p>
+            <div class="productos__gallery">
+              <figure class="productos__img--modify">
+                <img src="assets/img/green-terra.png" alt="">
+              </figure>
+              </figure>
+            </div>
           </a>
         </div>
       </div>

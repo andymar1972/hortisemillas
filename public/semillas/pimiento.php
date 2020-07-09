@@ -9,11 +9,14 @@
   <?php include('../includes/_header2.php') ?>
   <div class="banner--modify">
     <div class="banner__container">
-      <div class="container">
+      <!-- <div class="container">
         <h2 class="banner__title"><?php echo $titulo; ?></h2>
-      </div>
+      </div> -->
       <figure class="banner__img">
         <img src="../assets/img/semillas/b-<?php echo strtolower($titulo); ?>.png" alt="">
+      </figure>
+      <figure class="banner__absolute">
+        <img src="../assets/img/semillas/pimiento-main.png" alt="">
       </figure>
     </div>
   </div>
@@ -35,15 +38,13 @@
         <div class="producto-semilla__2fr">
           <div class="producto-semilla__filtro">
             <ul class="producto-semilla__filtro__list">
-              <!-- <li>Ancho <i class="fas fa-caret-right"></i></li> -->
               <li class="tablinks" onclick="openCity(event, 'california')" id="defaultOpen">California <i class="fas fa-caret-right"></i></li>
               <li class="tablinks" onclick="openCity(event, 'cristal')">Cristal <i class="fas fa-caret-right"></i></li>
-              <li onclick="openCity(event, 'guindilla')" class="tablinks">Guindilla <i class="fas fa-caret-right"></i></li>
-              <!-- <li>Habanero <i class="fas fa-caret-right"></i></li> -->
-              <li class="tablinks">Jalapeño <i class="fas fa-caret-right"></i></li>
-              <li class="tablinks">Morrón <i class="fas fa-caret-right"></i></li>
-              <li class="tablinks">Padrón <i class="fas fa-caret-right"></i></li>
-              <li class="tablinks">Páprika <i class="fas fa-caret-right"></i></li>
+              <li class="tablinks" onclick="openCity(event, 'guindilla')" >Guindilla <i class="fas fa-caret-right"></i></li>
+              <li class="tablinks" onclick="openCity(event, 'jalapeño')" >Jalapeño <i class="fas fa-caret-right"></i></li>
+              <li class="tablinks" onclick="openCity(event, 'morron')" >Morrón <i class="fas fa-caret-right"></i></li>
+              <li class="tablinks" onclick="openCity(event, 'padron')" >Padrón <i class="fas fa-caret-right"></i></li>
+              <li class="tablinks" onclick="openCity(event, 'papikra')" >Páprika <i class="fas fa-caret-right"></i></li>
               <li onclick="openCity(event, 'piquillo')" class="tablinks">Piquillo <i class="fas fa-caret-right"></i></li>
             </ul>
           </div>
@@ -200,12 +201,181 @@
                 </figure>
               </div>
             </div>
+            <div id="jalapeño" class="tabcontent">
+              <div class="tabcontent__title title">JALAPEÑO</div>
+              <div class="producto-semilla__grid">
+                <div class="producto-semilla__data">
+                  <?php $tituloSemilla = "CALIBER F1"; ?>
+                  <h3 class="producto-semilla__title title"><?php echo strtoupper($tituloSemilla); ?></h3>
+                  <figure class="producto-semilla__logo">
+                    <img src="../assets/img/agristar.png" alt="">
+                  </figure>
+                  <ul class="producto-semilla__list">
+                    <li>Ciclo medio a largo. Picor alto. Cosechas múltiples.</li>
+                    <li>Planta grande. Fruto de color verde a rojo, de tamaño mediano a grande, pared gruesa. Alto rendimiento de frutos grandes y uniformes.</li>
+                    <li>Para mercado fresco y procesado.</li>
+                    <li>Resistente a BLS (Bacterial Leaf Spot).</li>
+                  </ul>
+                </div>
+                <figure class="producto-semilla__img">
+                  <img src="../assets/img/semillas/caliber-f1.jpg" alt="">
+                </figure>
+              </div>
+              <div class="producto-semilla__grid">
+                <div class="producto-semilla__data">
+                  <?php $tituloSemilla = "DA VINCI F1"; ?>
+                  <h3 class="producto-semilla__title title"><?php echo strtoupper($tituloSemilla); ?></h3>
+                  <figure class="producto-semilla__logo">
+                    <img src="../assets/img/vilmorin.png" alt="">
+                  </figure>
+                  <ul class="producto-semilla__list">
+                    <li>Híbrido picante.</li>
+                    <li>Frutos uniformes y de excelente calidad.</li>
+                    <li>Planta de buen vigor, buena cobertura foliar y alto potencial de producción.</li>
+                    <li>Frutos grandes, de 7.5 a 8.0 centímetros de largo y 3.0 a 3.2 centímetros de diámetro, totalmente lisos y color verde oscuro perfectamente uniforme.</li>
+                    <li>Medianamente precoz.</li>
+                    <li>Alta resistencia al BLS (Bacterial Leaf Spot) 1,2,3.</li>
+                  </ul>
+                </div>
+                <figure class="producto-semilla__img">
+                  <img src="../assets/img/semillas/da-vinci.jpg" alt="">
+                </figure>
+              </div>
+              <div class="producto-semilla__grid">
+                <div class="producto-semilla__data">
+                  <?php $tituloSemilla = "RAYO F1"; ?>
+                  <h3 class="producto-semilla__title title"><?php echo strtoupper($tituloSemilla); ?></h3>
+                  <figure class="producto-semilla__logo">
+                    <img src="../assets/img/agristar.png" alt="">
+                  </figure>
+                  <ul class="producto-semilla__list">
+                    <li>Ciclo medio a largo. Picante medio a alto. Cosechas múltiples.</li>
+                    <li>Fruto de color verde  a rojo, de tamaño grande, pared gruesa.</li>
+                    <li>Cobertura excelente. Rendimiento alto y producción muy uniforme.</li>
+                    <li>Para mercado fresco y rodajas.</li>
+                    <li>Resistente a BLS (Bacterial Leaf Spot).</li>
+                  </ul>
+                </div>
+                <figure class="producto-semilla__img">
+                  <img src="../assets/img/semillas/rayo-f1.jpg" alt="">
+                </figure>
+              </div>
+              <div class="producto-semilla__grid">
+                <div class="producto-semilla__data">
+                  <?php $tituloSemilla = "RIVERA F1"; ?>
+                  <h3 class="producto-semilla__title title"><?php echo strtoupper($tituloSemilla); ?></h3>
+                  <figure class="producto-semilla__logo">
+                    <img src="../assets/img/vilmorin.png" alt="">
+                  </figure>
+                  <ul class="producto-semilla__list">
+                    <li>Híbrido picante con alto potencial de producción, de color verde oscuro, excelente calidad y presentación para el mercado fresco.</li>
+                    <li>Planta de buen vigor, excelente cuaje bajo alta presión de bacterias, muy picante, 8.5 a 9.0 centímetros de largo y 3.0 a 3.2 centímetros de diámetro, frutos totalmente lisos y color verde oscuro perfectamente uniforme.</li>
+                    <li>Medianamente precoz.</li>
+                    <li>Resistencia alta al BLS (Bacterial Leaf Spot) 1,2,3.</li>
+                  </ul>
+                </div>
+                <figure class="producto-semilla__img">
+                  <img src="../assets/img/semillas/rivera-f1.jpg" alt="">
+                </figure>
+              </div>
+            </div>
+            <div id="morron" class="tabcontent">
+              <div class="tabcontent__title title">MORRÓN</div>
+              <p class="tabcontent__text">Industria conservera y congelado</p>
+              <div class="producto-semilla__grid">
+                <div class="producto-semilla__data">
+                  <?php $tituloSemilla = "CIERZO F1"; ?>
+                  <h3 class="producto-semilla__title title"><?php echo strtoupper($tituloSemilla); ?></h3>
+                  <figure class="producto-semilla__logo">
+                    <img src="../assets/img/logo-ramiro-arnedo.png" alt="">
+                  </figure>
+                  <ul class="producto-semilla__list">
+                    <li>Pimiento Morrón, para conserva.</li>
+                    <li>Forma cónico acorazonado de 10 a 12 cm de largo y 7 a 9 de ancho.</li>
+                    <li>Peso promedio 170 a 200 gramos por fruto.</li>
+                    <li>Color rojo intenso y carne gruesa, consistente y dulce.</li>
+                    <li>Porcentaje de pedúnculo y placenta es menor que en Luesia (variedad de polinización abierta tipo morrón) por lo que se consigue mejor rendimiento en planta.</li>
+                    <li>Placenta vigorosa, follaje abundante que protege al fruto</li>
+                  </ul>
+                </div>
+                <figure class="producto-semilla__img">
+                  <img src="../assets/img/semillas/cierzo.jpg" alt="">
+                </figure>
+              </div>
+              <div class="producto-semilla__grid">
+                <div class="producto-semilla__data">
+                  <?php $tituloSemilla = "CORERA F1"; ?>
+                  <h3 class="producto-semilla__title title"><?php echo strtoupper($tituloSemilla); ?></h3>
+                  <figure class="producto-semilla__logo">
+                    <img src="../assets/img/logo-ramiro-arnedo.png" alt="">
+                  </figure>
+                  <ul class="producto-semilla__list">
+                    <li>Pimiento Tipo Morrón de color rojo.</li>
+                    <li>Planta vigorosa de cruz alta, follaje abundante.</li>
+                    <li>Fruto cónico. El fruto es algo mayor que un Cierzo F1, más puntiagudo, de mayor peso medio y rendimiento en carne, tiene un pedúnculo fino y placenta pequeña.</li>
+                    <li>Tiene 10 a 12 cm de longitud y 7 a 9 cm de diámetro.</li>
+                    <li>200 a 250 gramos por fruto.</li>
+                    <li>Paredes lisas.</li>
+                    <li>Maduración uniforme.</li>
+                    <li>Es un pimiento para la industria tanto conservera como congelado, también para el mercado fresco pues tiene muy buen color y resistencia en post cosecha.</li>
+                  </ul>
+                </div>
+                <figure class="producto-semilla__img">
+                  <img src="../assets/img/semillas/corera.jpg" alt="">
+                </figure>
+              </div>
+            </div>
+            <div id="padron" class="tabcontent">
+              <div class="tabcontent__title title">PADRÓN</div>
+              <div class="producto-semilla__grid">
+                <div class="producto-semilla__data">
+                  <?php $tituloSemilla = "CELTA F1"; ?>
+                  <h3 class="producto-semilla__title title"><?php echo strtoupper($tituloSemilla); ?></h3>
+                  <figure class="producto-semilla__logo">
+                    <img src="../assets/img/logo-ramiro-arnedo.png" alt="">
+                  </figure>
+                  <ul class="producto-semilla__list">
+                    <li>Pimiento tipo Padrón.</li>
+                    <li>Sin capsicina (no picante), pero con un intenso sabor a pimiento.</li>
+                    <li>Planta compacta, de entrenudos cortos y de producción precoz.</li>
+                    <li>Fruto ligeramente más largo pero más estrecho que Padrón.</li>
+                    <li>Color verde ligeramente más oscuro.</li>
+                    <li>Termina en 3 a 4 lóculos, aunque en ocasiones también en punta.</li>
+                    <li>Se adapta a cultivo en aire libre y bajo plástico.</li>
+                  </ul>
+                </div>
+                <figure class="producto-semilla__img">
+                  <img src="../assets/img/semillas/celta.jpg" alt="">
+                </figure>
+              </div>
+            </div>
+            <div id="papikra" class="tabcontent">
+              <div class="tabcontent__title title">PÁPRIKA</div>
+              <div class="producto-semilla__grid">
+                <div class="producto-semilla__data">
+                  <?php $tituloSemilla = "CAPRI"; ?>
+                  <h3 class="producto-semilla__title title"><?php echo strtoupper($tituloSemilla); ?></h3>
+                  <figure class="producto-semilla__logo">
+                    <img src="../assets/img/logo-ramiro-arnedo.png" alt="">
+                  </figure>
+                  <ul class="producto-semilla__list">
+                    <li>Pimiento para deshidratación, entero o polvo molido para condimento.</li>
+                    <li>Forma largo estrecho terminado en punta con unos 14 cm de longitud aproximadamente.</li>
+                    <li>Alto contenido de materia seca y buen secado.</li>
+                    <li>240 grados Asta aproximadamente.</li>
+                  </ul>
+                </div>
+                <figure class="producto-semilla__img">
+                  <img src="../assets/img/semillas/capri.jpg" alt="">
+                </figure>
+              </div>
+            </div>
             <div id="piquillo" class="tabcontent">
               <div class="tabcontent__title title">PIQUILLO </div>
               <p class="tabcontent__text">Industria conservera</p>
               <div class="producto-semilla__grid">
                 <div class="producto-semilla__data">
-                  <?php $tituloSemilla = "PEQUEÑA AMARILLA VASCA"; ?>
+                  <?php $tituloSemilla = "ARCA F1"; ?>
                   <h3 class="producto-semilla__title title"><?php echo strtoupper($tituloSemilla); ?></h3>
                   <figure class="producto-semilla__logo">
                     <img src="../assets/img/logo-ramiro-arnedo.png" alt="">
@@ -241,6 +411,10 @@
               </div>
             </div>
           </div>
+        </div>
+        <div class="navegacion">
+          <a class="navegacion__button-prev" href="lechuga.php"><i class="fas fa-caret-left"></i>lechuga</a>
+          <a class="navegacion__button-next" href="poro.php">poro<i class="fas fa-caret-right"></i></a>
         </div>
 
       </div>

@@ -15,6 +15,9 @@
       <figure class="banner__img">
         <img src="../assets/img/semillas/b-<?php echo strtolower($titulo); ?>.png" alt="">
       </figure>
+      <figure class="banner__absolute">
+        <img src="../assets/img/semillas/tomate-main.png" alt="">
+      </figure>
     </div>
   </div>
   <main class="main">
@@ -98,7 +101,7 @@
               </div>
               <div class="producto-semilla__grid">
                 <div class="producto-semilla__data">
-                  <?php $tituloSemilla = "TOMATE PALERMO F1:"; ?>
+                  <?php $tituloSemilla = "PALERMO F1:"; ?>
                   <h3 class="producto-semilla__title title"><?php echo strtoupper($tituloSemilla); ?></h3>
                   <figure class="producto-semilla__logo">
                     <img src="../assets/img/vilmorin.png" alt="">
@@ -122,29 +125,46 @@
             </div>
             <div id="cherry" class="tabcontent">
               <div class="tabcontent__title title">CHERRY</div>
-              <p class="tabcontent__text">Industria conservera</p>
-              <div class="producto-semilla__grid">
-                <div class="producto-semilla__data">
-                  <?php $tituloSemilla = "PAIME F1"; ?>
-                  <h3 class="producto-semilla__title title"><?php echo strtoupper($tituloSemilla); ?></h3>
-                  <figure class="producto-semilla__logo">
-                    <img src="../assets/img/vilmorin.png" alt="">
+                <div class="producto-semilla__grid">
+                  <div class="producto-semilla__data">
+                    <?php $tituloSemilla = "BRONCO F1"; ?>
+                    <h3 class="producto-semilla__title title"><?php echo strtoupper($tituloSemilla); ?></h3>
+                    <figure class="producto-semilla__logo">
+                      <img src="../assets/img/logo-ramiro-arnedo.png" alt="">
+                    </figure>
+                    <ul class="producto-semilla__list">
+                      <li>Planta vigorosa, de entrenudos medios y porte semiabierto.</li>
+                      <li>Fruto de alta consistencia y buena conservación.</li>
+                      <li>Con un ramo casi perfecto y un peso medio de 28-32 g.</li>
+                      <li>HR a ToMV, Fol (0, 1). IR a TYLCV y N.</li>
+                    </ul>
+                  </div>
+                  <figure class="producto-semilla__img">
+                    <img src="../assets/img/semillas/tomate-bronco.jpg" alt="">
                   </figure>
-                  <ul class="producto-semilla__list">
-                    <li>Tipo Cherry Pera para cultivo en invernadero.</li>
-                    <li>Planta de gran vigor, con entrenudos medios y porte abierto.</li>
-                    <li>Fruto de 25-30 g de peso, muy resistente al rajado.</li>
-                    <li>Para recolección en suelto.</li>
-                    <li>Ciclo largo.</li>
-                    <li>Alta Resistencia a ToMV.</li>
-                    <li>Alcanza los 9-10º Brix, por lo que destaca por su sabor.</li>
-                  </ul>
                 </div>
-                <figure class="producto-semilla__img">
-                  <img src="../assets/img/semillas/paime.jpg" alt="">
-                </figure>
-              </div>
-              <div class="producto-semilla__grid">
+                <div class="producto-semilla__grid">
+                  <div class="producto-semilla__data">
+                    <?php $tituloSemilla = "PAIME F1"; ?>
+                    <h3 class="producto-semilla__title title"><?php echo strtoupper($tituloSemilla); ?></h3>
+                    <figure class="producto-semilla__logo">
+                      <img src="../assets/img/logo-ramiro-arnedo.png" alt="">
+                    </figure>
+                    <ul class="producto-semilla__list">
+                      <li>Tipo Cherry Pera para cultivo en invernadero.</li>
+                      <li>Planta de gran vigor, con entrenudos medios y porte abierto.</li>
+                      <li>Fruto de 25-30 g de peso, muy resistente al rajado.</li>
+                      <li>Para recolección en suelto.</li>
+                      <li>Ciclo largo.</li>
+                      <li>Alta Resistencia a ToMV.</li>
+                      <li>Alcanza los 9-10º Brix, por lo que destaca por su sabor.</li>
+                    </ul>
+                  </div>
+                  <figure class="producto-semilla__img">
+                    <img src="../assets/img/semillas/paime.jpg" alt="">
+                  </figure>
+                </div>
+              <!-- <div class="producto-semilla__grid">
                 <div class="producto-semilla__data">
                   <?php $tituloSemilla = "SCIALARI F1"; ?>
                   <h3 class="producto-semilla__title title"><?php echo strtoupper($tituloSemilla); ?></h3>
@@ -169,7 +189,7 @@
                 <figure class="producto-semilla__img">
                   <img src="../assets/img/semillas/scialari.jpg" alt="">
                 </figure>
-              </div>
+              </div> -->
               <div class="producto-semilla__grid">
                 <div class="producto-semilla__data">
                   <?php $tituloSemilla = "TRUVATURA F1"; ?>
@@ -200,6 +220,10 @@
               </div>
             </div>
           </div>
+        </div>
+        <div class="navegacion">
+          <a class="navegacion__button-prev" href="sandia.php"><i class="fas fa-caret-left"></i>sandia</a>
+          <a class="navegacion__button-next" href="vainita.php">vainitia<i class="fas fa-caret-right"></i></a>
         </div>
 
       </div>

@@ -9,11 +9,14 @@
   <?php include('../includes/_header2.php') ?>
   <div class="banner--modify">
     <div class="banner__container">
-      <div class="container">
+      <!-- <div class="container">
         <h2 class="banner__title"><?php echo $titulo; ?></h2>
-      </div>
+      </div> -->
       <figure class="banner__img">
         <img src="../assets/img/semillas/b-<?php echo strtolower($titulo); ?>.png" alt="">
+      </figure>
+      <figure class="banner__absolute">
+        <img src="../assets/img/semillas/esparrago-main.png" alt="">
       </figure>
     </div>
   </div>
@@ -33,6 +36,25 @@
             </li>
           </ul>
         </nav>
+        <div class="producto-semilla__grid">
+          <div class="producto-semilla__data">
+            <?php $tituloSemilla = "ESPADA F1"; ?>
+            <h3 class="producto-semilla__title title"><?php echo strtoupper($tituloSemilla); ?></h3>
+            <figure class="producto-semilla__logo">
+              <img src="../assets/img/eurosemillas.png" alt="">
+            </figure>
+            <ul class="producto-semilla__list">
+              <li>Espada es un híbrido muy adecuado para la producción temprana de espárragos frescos en climas cálidos.</li>
+              <li>Las puntas permanecen firmemente cerradas lo que resulta en un alto nivel de calidad.</li>
+              <li>Es capaz de producir altos rendimientos de espárragos de alta calidad durante muchos años.</li>
+              <li>Es una variedad muy productiva, muy adecuada para las cosechas de espárrago verdes frescos de alta calidad en zonas de cultivo con temporadas de cultivos largos y muy calidas y con inviernos no demasiados frios.</li>
+              <li>El díametro promedio de los turiones de Espada es mayor que UC 115 F1, y casi tan grande como Atlas y Grande.</li>
+            </ul>
+          </div>
+          <figure class="producto-semilla__img">
+            <img src="../assets/img/semillas/ult-esparrago.jpg" alt="">
+          </figure>
+        </div>
         <div class="producto-semilla__grid">
           <div class="producto-semilla__data">
             <?php $tituloSemilla = "JALEO F1"; ?>
@@ -96,24 +118,9 @@
             <img src="../assets/img/semillas/uc115.jpg" alt="">
           </figure>
         </div>
-        <div class="producto-semilla__grid">
-          <div class="producto-semilla__data">
-            <?php $tituloSemilla = "ESPÁRRAGO ESPADA F1"; ?>
-            <h3 class="producto-semilla__title title"><?php echo strtoupper($tituloSemilla); ?></h3>
-            <figure class="producto-semilla__logo">
-              <img src="../assets/img/eurosemillas.png" alt="">
-            </figure>
-            <ul class="producto-semilla__list">
-              <li>Espada es un híbrido muy adecuado para la producción temprana de espárragos frescos en climas cálidos.</li>
-              <li>Las puntas permanecen firmemente cerradas lo que resulta en un alto nivel de calidad.</li>
-              <li>Es capaz de producir altos rendimientos de espárragos de alta calidad durante muchos años.</li>
-              <li>Es una variedad muy productiva, muy adecuada para las cosechas de espárrago verdes frescos de alta calidad en zonas de cultivo con temporadas de cultivos largos y muy calidas y con inviernos no demasiados frios.</li>
-              <li>El díametro promedio de los turiones de Espada es mayor que UC 115 F1, y casi tan grande como Atlas y Grande.</li>
-            </ul>
-          </div>
-          <figure class="producto-semilla__img">
-            <img src="../assets/img/semillas/ult-esparrago.jpg" alt="">
-          </figure>
+        <div class="navegacion">
+          <a class="navegacion__button-prev" href="escarola.php"><i class="fas fa-caret-left"></i>ESCAROLA</a>
+          <a class="navegacion__button-next" href="espinaca.php">ESPINACA<i class="fas fa-caret-right"></i></a>
         </div>
       </div>
     </section>

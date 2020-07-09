@@ -18,24 +18,25 @@
   <main class="main">
     <section class="contacto section">
       <div class="contacto__container container">
+      <p class="title--2">Contáctenos</p>
         <div class="contacto__grid--2">
           <form class="form" id="frmContacto" action="" method="post">
             <div class="panel__confirmacion" id="respa"></div>
             <div class="form__group">
               <label for="nombre-contacto">Nombre:</label>
-              <input class="input" type="text" name="nombre" id="nombre-contacto" placeholder="Introducir nombre">
+              <input class="input" type="text" name="nombre" id="nombre-contacto" placeholder="Introducir nombre" required>
             </div>
             <div class="form__group">
               <label for="correo-contacto">Correo electrónico:</label>
-              <input class="input" type="email" name="correo" id="correo-contacto" placeholder="Introducir correo">
+              <input class="input" type="email" name="correo" id="correo-contacto" placeholder="Introducir correo" required>
             </div>
             <div class="form__group">
               <label for="empresa-contacto">Empresa:</label>
-              <input class="input" type="text" name="empresa" id="empresa-contacto" placeholder="Introducir correo">
+              <input class="input" type="text" name="empresa" id="empresa-contacto" placeholder="Introducir nombre de empresa" required>
             </div>
             <div class="form__group">
               <label for="mensaje-contacto">Mensaje:</label>
-              <textarea class="input" name="mensaje" id="mensaje-contacto" cols="30" rows="10" placeholder="Escriba su mensaje"></textarea>
+              <textarea required class="input" name="mensaje" id="mensaje-contacto" cols="30" rows="10" placeholder="Escriba su mensaje"></textarea>
             </div>
             <div class="form__group">
               <div>
@@ -43,7 +44,7 @@
               </div>
             </div>
           </form>
-          <figure class="img-padding">
+          <figure class="img">
             <img src="assets/img/contacto.jpg" alt="">
           </figure>
         </div>
@@ -72,7 +73,6 @@
               <i class="fas fa-mobile-alt"></i>
             </div>
             <p class="contacto__item__text">946 587 399</p>
-            <p class="contacto__item__text">975 499 993</p>
             <p class="contacto__item__text">951 731 490</p>
           </div>
         </div>

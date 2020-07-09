@@ -2,7 +2,7 @@
   &__grid {
     margin-top: 3rem;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     gap: 3rem;
     @include b-800{
       grid-template-columns: 1fr;
